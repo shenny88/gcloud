@@ -1,0 +1,10 @@
+#login
+gcloud auth login shenny.rs@gmail.com
+#list
+gcloud compute instances list
+#start
+gcloud compute instances start $INSTANCE_NAME
+#stop
+gcloud compute instances stop $INSTANCE_NAME
+#avoid charge do cleanup
+gcloud compute instances delete $INSTANCE_NAME
